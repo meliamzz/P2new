@@ -1,7 +1,49 @@
 * {
     list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 5%;
+}
+img {
+    max-width: 100%;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    padding: auto;
 }
 
-.logo {
-    width: 30%;
+.nav li {
+    width: 50%;
+}
+
+.nav__logo--img {
+    width: 60%;
+    padding-bottom: 3%;
+}
+
+.nav--bold {
+    font-weight: bold;
+}
+
+.nav--blue {
+    color: #0065FC
+}
+.nav--black {
+    color: black;
+}
+
+.nav--right {
+text-align: right;
+}
+.nav--left {
+    text-align: left;
+}
+
+.nav--center {
+    text-align: center;
 }
