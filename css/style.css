@@ -4,6 +4,7 @@
 }
 body{
     margin: 5%;
+    font-family: 'Raleway', sans-serif;
 }
 img {
     max-width: 100%;
@@ -46,4 +47,9 @@ text-align: right;
 
 .nav--center {
     text-align: center;
+}
+
+h1 {
+    font-size: 1.4em;
+
 }
