@@ -51,5 +51,20 @@ text-align: right;
 
 h1 {
     font-size: 1.4em;
+}
 
+.searchbar {
+    padding: 5%;
+}
+.fa-map-marker-alt {
+    padding: 3%;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+}
+
+.fa-search {
+    padding: 3%;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 10px 10px 0;
 }
