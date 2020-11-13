@@ -3,11 +3,15 @@
     text-decoration: none;
 }
 body{
-    margin: 5%;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 img {
     max-width: 100%;
+}
+
+header {
+    margin: 5%;
 }
 .nav ul {
     display: flex;
@@ -59,7 +63,7 @@ h1 {
 }
 
 .btn-searchbar {
-    width: 15%;
+    width: 13%;
     height: 100%;
     background-color: #0065FC;
     border: none;
@@ -82,7 +86,7 @@ h1 {
 }
 
 .markergps {
-    width: 15%;
+    width: 13%;
     height: 100%;
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
@@ -165,7 +169,123 @@ h1 {
 
 }
 
+.title-famous {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 .bloc-populaire {
     background-color: #F2F2F2;
 }
 
+
+.bloc-famous {
+    max-width: 100%;
+    margin: 5%;
+    display: flex;
+    border-radius: 10px;
+    border: solid white 5px;
+    height: 120px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.bloc-famous img {
+    width: 120px;
+    height: 120px;
+}
+
+.descriptif {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.descriptif h3 {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.descriptif p {
+    font-size: 0.8em;
+}
+
+.star-blue {
+    color:#0065FC;
+
+}
+
+.star-grey {
+    color: #F2F2F2
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+.hebergement {
+    margin: 5%;
+    border-radius: 10px;
+    border: solid white 4px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    overflow: hidden;
+}
+
+.hebergement img {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.hebergement h3 {
+    font-size: 1em;
+}
+
+.hebergement p { 
+    font-size: 0.8em;
+}
+
+.bloc-activity {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.activity {
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    overflow: hidden;
+}
+
+.activity img {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.activity h3 {
+    font-size: 1em;
+    padding-left: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    background-color: #F2F2F2;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p,a {
+    padding: 2% 0;
+}
