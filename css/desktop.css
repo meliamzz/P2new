@@ -1,0 +1,101 @@
+@media screen and (min-width: 769px) {
+    .nav li {
+        width: auto;
+    }
+
+    .nav li:nth-child(2) {
+        order: 4;
+    }
+
+    .nav li:nth-child(1) {
+        flex: 1;
+    }
+
+    .nav__logo--img {
+        width: 20%;
+        padding: 0;
+    }
+
+    .nav__subscribe, .nav__home, .nav__activity {
+        padding: 0 3%;
+    }
+
+    .margin5 {
+        margin: 2%;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    .recherche {
+        padding: 0;
+    }
+
+    .searchbar {
+        width: 20%;
+    }
+
+    .markergps {
+        padding: 0 10%;
+    }
+
+    .btn-searchbar {
+        display: none;
+    }
+
+    .btn-searchbar-desktop {
+        display: block;
+        background-color: #0065FC;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        border: none;
+        
+    }
+
+    .filtre-desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .filtre-desktop h3 {
+        padding-right: 5%;
+        vertical-align: middle;
+    }
+
+    .filtre {
+        flex-wrap: nowrap;
+    }
+    .bloc-loc {
+        flex-direction: row;
+    }
+
+
+    .bloc-hebergement {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 70%;
+        height: 700px;
+        background-color: #F2F2F2;
+        margin: 30px;
+    }
+
+    .bloc-populaire {
+        width: 30%;
+        height: 700px;
+        margin: 30px;
+    }
+
+    .hebergement {
+        width: 5%;
+        height: 200px;
+        margin: 0 30px;
+        
+    }
+
+}
